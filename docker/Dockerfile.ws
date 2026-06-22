@@ -9,8 +9,6 @@ COPY ./turbo.json ./turbo.json
 
 COPY ./apps/websocket ./apps/websocket
 
-RUN npm install 
-
 COPY . .
 
 RUN bun install

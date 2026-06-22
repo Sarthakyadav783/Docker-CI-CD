@@ -11,8 +11,6 @@ COPY ./turbo.json ./turbo.json
 
 COPY ./apps/web ./apps/web
 
-RUN npm install 
-
 COPY . .
 
 RUN bun install
